@@ -1,7 +1,13 @@
 <resources>
+    <!-- EPG usage -->
+    <string-array name="mode_array">
+        <item>A-line</item>
+        <item>ICP</item>
+        <item>ECG</item>
+    </string-array>
 
     <!-- Application -->
-    <string name="app_name_EFR_Connect">EFR Connect</string>
+    <string name="app_name_EFR_Connect">FlowEHeath EFR</string>
 
     <!-- Bluetooth bar -->
     <string name="bluetooth_adapter_bar_disabled">Bluetooth adapter disabled</string>
@@ -234,7 +240,7 @@
     <!-- Help -->
     <string name="help_text_moreinfo_label">For more information visit:</string>
     <string name="help_text_sourcecode_label">Source code:</string>
-    <string name="help_text_users_guide_label">EFR Connect User\'s Guide:</string>
+    <string name="help_text_users_guide_label">FlowEHeath EFR User\'s Guide:</string>
     <string name="help_text_support_label">Support:</string>
     <string name="help_text_release_notes_label">Release notes:</string>
     <string name="help_text_documentation_label">Additional documentation:</string>

@@ -14,22 +14,43 @@ repositories {
 
 android {
     compileSdk = 33
-    namespace = "com.siliconlabs.bledemo"
+    namespace = "com.flowehealth.efr_version"
 
     defaultConfig {
         minSdk = 29
         targetSdk = 33
-
+        versionCode = 1
+        versionName = "1.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                // arguments("-DANDROID_STL=c++_shared")
+                cppFlags("-std=c++17")
+            }
+        }
+    }
+
+    externalNativeBuild{
+        cmake {
+            path{
+                "src/main/cpp/CMakeLists.txt"
+            }
+        }
     }
 
     buildTypes {
         release {
+            buildConfigField("String", "TAG", "\"GeniusPudding\"")
+            buildConfigField("String", "API_PREFIX", "\"je168jc6j5\"")
+            buildConfigField("int", "SAMPLINGRATE", "100")
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
             signingConfig = signingConfigs.getByName("debug")
         }
         debug {
+            buildConfigField("String", "TAG", "\"GeniusPudding\"")
+            buildConfigField("String", "API_PREFIX", "\"je168jc6j5\"")
+            buildConfigField("int", "SAMPLINGRATE", "100")
             isDebuggable = true
             //renderscriptDebuggable false
             //minifyEnabled true
@@ -50,7 +71,7 @@ android {
     productFlavors {
         create("blueGecko") {
             dimension = versionDim
-            applicationId = "com.siliconlabs.bledemo"
+            applicationId = "com.flowehealth.efr_version"
             versionCode = 44
             versionName = "2.7.2"
         }
@@ -67,6 +88,8 @@ android {
 
     buildFeatures {
         viewBinding = true
+        buildConfig = true
+        dataBinding = true
     }
 }
 

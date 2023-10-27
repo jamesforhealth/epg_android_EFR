@@ -13,28 +13,28 @@
     android:orientation="vertical"
     android:background="@android:color/white" >
 
-    <com.siliconlabs.bledemo.home_screen.views.BluetoothEnableBar
+    <com.flowehealth.efr_version.home_screen.views.BluetoothEnableBar
         android:id="@+id/bluetooth_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <com.siliconlabs.bledemo.home_screen.views.BluetoothPermissionsBar
+    <com.flowehealth.efr_version.home_screen.views.BluetoothPermissionsBar
         android:id="@+id/bluetooth_permissions_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <com.siliconlabs.bledemo.home_screen.views.LocationEnableBar
+    <com.flowehealth.efr_version.home_screen.views.LocationEnableBar
         android:id="@+id/location_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <com.siliconlabs.bledemo.home_screen.views.LocationPermissionBar
+    <com.flowehealth.efr_version.home_screen.views.LocationPermissionBar
         android:id="@+id/location_permission_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
                 android:splitMotionEvents="false" />
         </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
-            <com.siliconlabs.bledemo.common.views.MainActionButton
+            <com.flowehealth.efr_version.common.views.MainActionButton
                 android:id="@+id/btn_scanning"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
 
     </RelativeLayout>
 
-    <com.siliconlabs.bledemo.common.views.FlyInBar
+    <com.flowehealth.efr_version.common.views.FlyInBar
         android:id="@+id/fly_in_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/scanning_animation_bar_height"

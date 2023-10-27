@@ -120,7 +120,7 @@
             app:layout_constraintStart_toEndOf="@id/esl_display_image_button"
             app:layout_constraintTop_toBottomOf="@id/esl_divider" />
 
-        <com.siliconlabs.bledemo.common.views.ExpandArrow
+        <com.flowehealth.efr_version.common.views.ExpandArrow
             android:id="@+id/expand_arrow"
             style="@style/Widget.Material3.Button.IconButton"
             android:layout_width="48dp"

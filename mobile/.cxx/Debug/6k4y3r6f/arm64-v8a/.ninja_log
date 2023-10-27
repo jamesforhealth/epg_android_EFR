@@ -1,0 +1,22 @@
+# ninja log v5
+1	639	1698134926045937015	CMakeFiles/flowehealth.dir/flowehealgorithms/DSP/epg_integrator.cpp.o	e591fe1b2b7924d1
+1	649	1698134926054850056	CMakeFiles/flowehealth.dir/flowehealgorithms/histogram.cpp.o	286583c277ea5e40
+2	268	1698135278577250882	CMakeFiles/epg_android_EFR.dir/flowehealgorithms/basic_charts.cpp.o	906b74a11c7aca7f
+1	701	1698134926106961196	CMakeFiles/flowehealth.dir/flowehealgorithms/basic_charts.cpp.o	bb9ae1fe0e2eb27a
+2	483	1698135121131716801	CMakeFiles/epg_android_EFR.dir/pffft/pffft.c.o	de268af18c06dd64
+0	1068	1698134926474167005	CMakeFiles/flowehealth.dir/native-lib.cpp.o	9e7249d41d100e84
+2	416	1698135278724956142	CMakeFiles/epg_android_EFR.dir/flowehealgorithms/peak_detection.cpp.o	eddeda536ee1a7db
+2	577	1698134925983750443	CMakeFiles/flowehealth.dir/pffft/pffft.c.o	e9934748587e3667
+2	29	0	/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/Builds/epg_android_EFR/mobile/intermediates/cxx/Debug/6k4y3r6f/obj/arm64-v8a/libflowehealth.so	984839f3df48c91c
+2	310	1698135278619735014	CMakeFiles/epg_android_EFR.dir/flowehealgorithms/histogram.cpp.o	623e1bd975c4a4b
+1	1121	1698134926527481454	CMakeFiles/flowehealth.dir/flowehealgorithms/peak_detection.cpp.o	eb25f9bdb2256b38
+2	252	1698135278561373412	CMakeFiles/epg_android_EFR.dir/flowehealgorithms/DSP/epg_integrator.cpp.o	bb2b58933eb94ec0
+2	446	1698135278755122020	CMakeFiles/epg_android_EFR.dir/native-lib.cpp.o	a4178b7a124be774
+446	512	1698135278807634333	/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/Builds/epg_android_EFR/mobile/intermediates/cxx/Debug/6k4y3r6f/obj/arm64-v8a/libepg_android_EFR.so	a8b4deedb0b4d32f
+3	352	1698135606495555991	CMakeFiles/flowehealth.dir/flowehealgorithms/DSP/epg_integrator.cpp.o	dfff27fa164b7727
+1	358	1698135606502792457	CMakeFiles/flowehealth.dir/flowehealgorithms/basic_charts.cpp.o	77c9bdbf622b7cea
+3	421	1698135606558408106	CMakeFiles/flowehealth.dir/flowehealgorithms/histogram.cpp.o	3559cee8e886644
+2	531	1698135606675912560	CMakeFiles/flowehealth.dir/flowehealgorithms/peak_detection.cpp.o	102930c76374f329
+1	570	1698135606713546711	CMakeFiles/flowehealth.dir/native-lib.cpp.o	b9c1dcd150658b41
+570	655	1698135606781247999	/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/Builds/epg_android_EFR/mobile/intermediates/cxx/Debug/6k4y3r6f/obj/arm64-v8a/libflowehealth.so	e4a997231187e2f5
+8	2091	1698392379870157924	/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/Builds/epg_android_EFR/mobile/intermediates/cxx/Debug/6k4y3r6f/obj/arm64-v8a/libflowehealth.so	e4a997231187e2f5

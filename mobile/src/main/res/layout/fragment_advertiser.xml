@@ -5,14 +5,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.siliconlabs.bledemo.home_screen.views.BluetoothEnableBar
+    <com.flowehealth.efr_version.home_screen.views.BluetoothEnableBar
         android:id="@+id/bluetooth_enable"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <com.siliconlabs.bledemo.home_screen.views.BluetoothPermissionsBar
+    <com.flowehealth.efr_version.home_screen.views.BluetoothPermissionsBar
         android:id="@+id/bluetooth_permissions_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/4v5r6t5l/armeabi-v7a",
+  "command": "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi29 --sysroot=/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dflowehealth_EXPORTS -std=c++17 -mfpu=neon -S -O3 -g  -fno-limit-debug-info -fPIC -o CMakeFiles/flowehealth.dir/native-lib.cpp.o -c /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/native-lib.cpp",
+  "file": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/native-lib.cpp"
+},
+{
+  "directory": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/4v5r6t5l/armeabi-v7a",
+  "command": "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi29 --sysroot=/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dflowehealth_EXPORTS -std=c++17 -mfpu=neon -S -O3 -g  -fno-limit-debug-info -fPIC -o CMakeFiles/flowehealth.dir/flowehealgorithms/basic_charts.cpp.o -c /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/flowehealgorithms/basic_charts.cpp",
+  "file": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/flowehealgorithms/basic_charts.cpp"
+},
+{
+  "directory": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/4v5r6t5l/armeabi-v7a",
+  "command": "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi29 --sysroot=/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dflowehealth_EXPORTS -std=c++17 -mfpu=neon -S -O3 -g  -fno-limit-debug-info -fPIC -o CMakeFiles/flowehealth.dir/flowehealgorithms/peak_detection.cpp.o -c /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/flowehealgorithms/peak_detection.cpp",
+  "file": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/flowehealgorithms/peak_detection.cpp"
+},
+{
+  "directory": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/4v5r6t5l/armeabi-v7a",
+  "command": "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi29 --sysroot=/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dflowehealth_EXPORTS -std=c++17 -mfpu=neon -S -O3 -g  -fno-limit-debug-info -fPIC -o CMakeFiles/flowehealth.dir/flowehealgorithms/histogram.cpp.o -c /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/flowehealgorithms/histogram.cpp",
+  "file": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/flowehealgorithms/histogram.cpp"
+},
+{
+  "directory": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/4v5r6t5l/armeabi-v7a",
+  "command": "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi29 --sysroot=/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dflowehealth_EXPORTS -std=c++17 -mfpu=neon -S -O3 -g  -fno-limit-debug-info -fPIC -o CMakeFiles/flowehealth.dir/flowehealgorithms/DSP/epg_integrator.cpp.o -c /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/flowehealgorithms/DSP/epg_integrator.cpp",
+  "file": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/flowehealgorithms/DSP/epg_integrator.cpp"
+},
+{
+  "directory": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/4v5r6t5l/armeabi-v7a",
+  "command": "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi29 --sysroot=/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dflowehealth_EXPORTS -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fexceptions -g  -fno-limit-debug-info -fPIC -o CMakeFiles/flowehealth.dir/pffft/pffft.c.o -c /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/pffft/pffft.c",
+  "file": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/pffft/pffft.c"
+}
+]

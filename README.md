@@ -1,22 +1,28 @@
-# EFR Connect Mobile Application
-This is the source code for the EFR Connect mobile application.
+# Modified by James Lin 
+"gradle.properties" added:
+   kotlin.compiler.jvmArgs = '--add-exports=jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED'
+   org.gradle.jvmargs=--add-opens jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED
 
-## What is EFR Connect BLE mobile app? 
 
-Silicon Labs EFR Connect is a generic BLE mobile app for testing and debugging Bluetooth® Low Energy applications. With EFR Connect, you can quickly troubleshoot your BLE embedded application code, Over-the-Air (OTA) firmware update, data throughput, and interoperability with Android and iOS mobiles, among the many other features. You can use the EFR Connect app with all Silicon Labs Bluetooth development kits, Systems on Chip (SoC), and modules.
+# FlowEHeath EFR Mobile Application
+This is the source code for the FlowEHeath EFR mobile application.
 
-## Why download EFR Connect? 
-EFR Connect radically saves the time you will use for testing and debugging! With EFR Connect, you can quickly see what’s wrong with your code and how to fix and optimize it. EFR Connect is the first BLE mobile app allowing you to test data throughput and mobile interoperability with a single tap on the app.
+## What is FlowEHeath EFR BLE mobile app? 
+
+Silicon Labs FlowEHeath EFR is a generic BLE mobile app for testing and debugging Bluetooth® Low Energy applications. With FlowEHeath EFR, you can quickly troubleshoot your BLE embedded application code, Over-the-Air (OTA) firmware update, data throughput, and interoperability with Android and iOS mobiles, among the many other features. You can use the FlowEHeath EFR app with all Silicon Labs Bluetooth development kits, Systems on Chip (SoC), and modules.
+
+## Why download FlowEHeath EFR? 
+FlowEHeath EFR radically saves the time you will use for testing and debugging! With FlowEHeath EFR, you can quickly see what’s wrong with your code and how to fix and optimize it. FlowEHeath EFR is the first BLE mobile app allowing you to test data throughput and mobile interoperability with a single tap on the app.
 
 ## How does it work? 
-Using EFR Connect BLE mobile app is easy. It runs on your mobile devices such as a smartphone or tablet. It utilizes the Bluetooth adapter on the mobile to scan, connect and interact with nearby BLE hardware.
+Using FlowEHeath EFR BLE mobile app is easy. It runs on your mobile devices such as a smartphone or tablet. It utilizes the Bluetooth adapter on the mobile to scan, connect and interact with nearby BLE hardware.
 
-After connecting the EFR Connect app and BLE hardware (e.g., a dev kit), the Blinky test on the app shows a green light indicating when your setup is ready to go. The app includes simple demos to teach you how to get started with EFR Connect and all Silicon Labs development tools.
+After connecting the FlowEHeath EFR app and BLE hardware (e.g., a dev kit), the Blinky test on the app shows a green light indicating when your setup is ready to go. The app includes simple demos to teach you how to get started with FlowEHeath EFR and all Silicon Labs development tools.
 
 The Browser, Advertiser, and Logging features help you to find and fix bugs quickly and test throughput and mobile interoperability simply, with a tap of a button. With our Simplicity Studio’s Network Analyzer tool (free of charge), you can view the packet trace data and dive into the details.
 
 ## Demos and Sample Apps
-EFR Connect includes many demos to test sample apps in the Silicon Labs GSDK quickly. Here are demo examples: 
+FlowEHeath EFR includes many demos to test sample apps in the Silicon Labs GSDK quickly. Here are demo examples: 
 
 - **Blinky**: The ”Hello World” of BLE – Toggling a LED is only one tap away. 
 - **Throughput**: Measure application data throughput between the BLE hardware 
@@ -30,7 +36,7 @@ EFR Connect includes many demos to test sample apps in the Silicon Labs GSDK qui
 - **Bluetooth Electronic Shelf Labels (ESL)**: Adds and commissions ESL tags to the system network by scanning the tag's QR code with the mobile device's camera and provides the user a UI to view the list commissioned tags and control them.
 
 ## Development Features
-EFR Connect helps developers create and troubleshoot Bluetooth applications running on Silicon Labs’ BLE hardware. Here’s a rundown of some example functionalities.
+FlowEHeath EFR helps developers create and troubleshoot Bluetooth applications running on Silicon Labs’ BLE hardware. Here’s a rundown of some example functionalities.
 
 **Bluetooth Browser** - A powerful tool to explore the BLE devices around you. Key features include:
 - Scan and sort results with a rich data set
@@ -61,7 +67,7 @@ EFR Connect helps developers create and troubleshoot Bluetooth applications runn
 - Export results log
 
 
-## Building EFR Connect from the source code
+## Building FlowEHeath EFR from the source code
 
 - Clone the project repository
 
@@ -77,7 +83,7 @@ EFR Connect helps developers create and troubleshoot Bluetooth applications runn
 
 ## Development
 
-The main application code lies in the `<project_directory>\mobile\src\main\java\com\siliconlabs\bledemo` directory. 
+The main application code lies in the `<project_directory>\mobile\src\main\java\com\flowehealth\efr_version` directory. 
 The main application screen's code can be found there in the `home_screen` directory, while the application features (scanner, IOP test, advertiser/server configuration, all the demos) 
 are separated into corresponding directories in the the `features` directory. 
 The application architecture mostly follows the MVVM (Model-View-Viewmodel) pattern, and the feature/demo directories contain their own views, model and viewmodels.
@@ -85,9 +91,9 @@ Handling the Bluetooth operations is covered mainly by the code in the `bluetoot
 GATT service/characteristic/descriptor definitions are contained in `<project_directory>\mobile\src\main\java\assets`.
 
 ## Additional information
-The app can be found on the [Google PlayStore](https://play.google.com/store/apps/details?id=com.siliconlabs.bledemo&hl=en) and [Apple App Store](https://apps.apple.com/us/app/blue-gecko/id1030932759).
+The app can be found on the [Google PlayStore](https://play.google.com/store/apps/details?id=com.flowehealth.efr_version&hl=en) and [Apple App Store](https://apps.apple.com/us/app/blue-gecko/id1030932759).
 
-[Learn more about EFR Connect BLE mobile app](https://www.silabs.com/developers/efr-connect-mobile-app).
+[Learn more about FlowEHeath EFR BLE mobile app](https://www.silabs.com/developers/efr-connect-mobile-app).
 
 [Release Notes](https://www.silabs.com/developers/efr-connect-mobile-app)
 

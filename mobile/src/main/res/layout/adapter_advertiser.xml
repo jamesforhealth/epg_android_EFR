@@ -243,7 +243,7 @@
                     app:layout_constraintStart_toEndOf="@id/ib_copy"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <com.siliconlabs.bledemo.common.views.ExpandArrow
+                <com.flowehealth.efr_version.common.views.ExpandArrow
                     android:id="@+id/expand_arrow"
                     style="@style/Widget.Material3.Button.IconButton"
                     android:layout_width="wrap_content"

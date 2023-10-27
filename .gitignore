@@ -10,3 +10,4 @@ Builds
 *.iml
 /local.properties
 *.DS_Store
+java_pid*.hprof

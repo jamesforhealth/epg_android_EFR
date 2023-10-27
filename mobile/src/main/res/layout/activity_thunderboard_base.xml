@@ -12,7 +12,7 @@
         android:layout_above="@id/bluegecko_status_fragment"/>
 
     <fragment
-        android:name="com.siliconlabs.bledemo.features.demo.thunderboard_demos.base.fragments.StatusFragment"
+        android:name="com.flowehealth.efr_version.features.demo.thunderboard_demos.base.fragments.StatusFragment"
         android:id="@+id/bluegecko_status_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

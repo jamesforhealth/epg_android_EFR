@@ -7,7 +7,7 @@
     android:focusableInTouchMode="true"
     tools:context=".features.configure.advertiser.activities.AdvertiserConfigActivity">
 
-    <com.siliconlabs.bledemo.common.views.HorizontalShadow
+    <com.flowehealth.efr_version.common.views.HorizontalShadow
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

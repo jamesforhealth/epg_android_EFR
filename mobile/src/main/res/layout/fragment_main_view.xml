@@ -25,7 +25,7 @@
 
     </LinearLayout>
 
-    <com.siliconlabs.bledemo.common.views.MainActionButton
+    <com.flowehealth.efr_version.common.views.MainActionButton
         android:id="@+id/extended_fab_main_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

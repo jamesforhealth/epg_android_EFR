@@ -81,7 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
-            <com.siliconlabs.bledemo.common.views.MainActionButton
+            <com.flowehealth.efr_version.common.views.MainActionButton
                 android:id="@+id/btn_bond_action"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                 tools:text="@string/create_bond" />
         </RelativeLayout>
 
-        <com.siliconlabs.bledemo.common.views.FlyInBar
+        <com.flowehealth.efr_version.common.views.FlyInBar
             android:id="@+id/fly_in_bar"
             android:layout_width="match_parent"
             android:layout_height="@dimen/scanning_animation_bar_height"

@@ -9,20 +9,20 @@
         android:menuCategory="secondary"
         android:title="@string/main_navigation_demo_title" />
 
-    <item android:id="@+id/testFragment"
+    <!-- <item android:id="@+id/testFragment"
         android:icon="@drawable/redesign_ic_main_navigation_iop"
         android:menuCategory="secondary"
-        android:title="@string/main_navigation_test_title" />
+        android:title="@string/main_navigation_test_title" /> -->
 
     <item android:id="@+id/scanFragment"
         android:icon="@drawable/redesign_ic_main_navigation_scan"
         android:menuCategory="secondary"
         android:title="@string/main_navigation_scan_title" />
 
-    <item android:id="@+id/configureFragment"
+    <!-- <item android:id="@+id/configureFragment"
         android:icon="@drawable/redesign_ic_main_navigation_configure"
         android:menuCategory="secondary"
-        android:title="@string/main_navigation_configure_title" />
+        android:title="@string/main_navigation_configure_title" /> -->
 
     <item android:id="@+id/settingsFragment"
         android:icon="@drawable/ic_settings"

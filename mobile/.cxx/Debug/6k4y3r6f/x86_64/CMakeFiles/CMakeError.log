@@ -1,0 +1,50 @@
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/jameslin/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_c16dc && [1/2] Building CXX object CMakeFiles/cmTC_c16dc.dir/CMakeCXXCompilerABI.cpp.o
+Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+Target: x86_64-none-linux-android29
+Thread model: posix
+InstalledDir: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x
+Found candidate GCC installation: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+clang-12: warning: argument unused during compilation: '-mfpu=neon' [-Wunused-command-line-argument]
+ (in-process)
+ "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang-12" -cc1 -triple x86_64-none-linux-android29 -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 650.9 -v -resource-dir /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_c16dc.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_c16dc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -std=c++17 -fdeprecated-macro -fdebug-compilation-dir /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/x86_64/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_c16dc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/jameslin/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-apple-darwin22.6.0
+ignoring nonexistent directory "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1
+ /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include
+ /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include
+ /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android
+ /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_c16dc
+Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+Target: x86_64-none-linux-android29
+Thread model: posix
+InstalledDir: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x
+Found candidate GCC installation: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  '/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin'
+Unable to find the executable at any of:
+  /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/x86_64/CMakeFiles/CMakeTmp/cmTC_c16dc
+  /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/x86_64/CMakeFiles/CMakeTmp/Debug/cmTC_c16dc
+  /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/x86_64/CMakeFiles/CMakeTmp/Debug/cmTC_c16dc.app/cmTC_c16dc
+  /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/x86_64/CMakeFiles/CMakeTmp/cmTC_c16dc.app/cmTC_c16dc
+  /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/x86_64/CMakeFiles/CMakeTmp/Development/cmTC_c16dc
+
+

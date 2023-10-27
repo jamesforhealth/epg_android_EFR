@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_weight="1" />
 
-    <com.siliconlabs.bledemo.features.configure.gatt_configurator.views.ExportBar
+    <com.flowehealth.efr_version.features.configure.gatt_configurator.views.ExportBar
         android:id="@+id/bottom_bar_export"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

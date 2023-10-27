@@ -1,0 +1,8 @@
+# ninja log v5
+1	490	1698133854091115091	CMakeFiles/flowehealth.dir/pffft/pffft.c.o	1967bf8c188e91b
+1	567	1698133854187317761	CMakeFiles/flowehealth.dir/flowehealgorithms/DSP/epg_integrator.cpp.o	78c81d4011087c39
+0	570	1698133854194036730	CMakeFiles/flowehealth.dir/flowehealgorithms/histogram.cpp.o	c7d8575da4f2c6c2
+0	646	1698133854269731448	CMakeFiles/flowehealth.dir/flowehealgorithms/basic_charts.cpp.o	65d70787af984992
+0	1132	1698133854755216025	CMakeFiles/flowehealth.dir/native-lib.cpp.o	d9bb7e5cdc76aea3
+0	1175	1698133854798610295	CMakeFiles/flowehealth.dir/flowehealgorithms/peak_detection.cpp.o	34e348e6e94aeafa
+1175	1195	0	/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/Builds/epg_android_EFR/mobile/intermediates/cxx/Debug/4v5r6t5l/obj/armeabi-v7a/libflowehealth.so	49927f88462fd6dd

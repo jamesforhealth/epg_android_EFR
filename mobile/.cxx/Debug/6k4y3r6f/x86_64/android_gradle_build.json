@@ -1,0 +1,40 @@
+{
+  "buildFiles": [
+    "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/jameslin/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/jameslin/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "flowehealth::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "flowehealth",
+      "output": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/Builds/epg_android_EFR/mobile/intermediates/cxx/Debug/6k4y3r6f/obj/x86_64/libflowehealth.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

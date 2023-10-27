@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="4dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="1dp">
+            <Button android:id="@+id/btn_clear" android:paddingBottom="10dp" android:textSize="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:background="@drawable/button_background" android:drawableTop="@drawable/clear" android:elevation="10dp" android:stateListAnimator="@animator/lift_on_touch" android:text="Clear" />
+            <Button android:id="@+id/btn_record" android:paddingBottom="10dp" android:textSize="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Record" android:drawableTop="@drawable/record" android:background="@drawable/button_background" android:elevation="10dp" android:stateListAnimator="@animator/lift_on_touch" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="1dp">
+                <EditText android:id="@+id/subjectID" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="subject #" />
+                <EditText android:id="@+id/note" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="measurement note" />
+            </LinearLayout>
+        </LinearLayout>
+        <Spinner
+            android:id="@+id/modeSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/mode_array"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:elevation="10dp"
+            tools:ignore="ExtraText"
+            app:cardBackgroundColor="#E0E0E0"
+            app:contentPadding="2dp">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Raw Data Chart" android:textSize="18sp" android:layout_marginTop="2dp" />
+                    <TextView
+                        android:id="@+id/dc_offset_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="DC Offset: "
+                        android:textSize="16sp"/>
+                </LinearLayout>
+                <com.github.mikephil.charting.charts.CombinedChart android:id="@+id/rawDataChart" android:layout_width="match_parent" android:layout_height="200dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

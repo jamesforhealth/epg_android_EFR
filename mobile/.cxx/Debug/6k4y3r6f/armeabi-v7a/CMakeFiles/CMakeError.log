@@ -1,0 +1,43 @@
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/jameslin/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_9e2e1 && [1/2] Building CXX object CMakeFiles/cmTC_9e2e1.dir/CMakeCXXCompilerABI.cpp.o
+Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+Target: armv7-none-linux-android29
+Thread model: posix
+InstalledDir: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+ (in-process)
+ "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang-12" -cc1 -triple armv7-none-linux-android29 -S -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 650.9 -v -resource-dir /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_9e2e1.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_9e2e1.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -std=c++17 -fdeprecated-macro -fdebug-compilation-dir /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_9e2e1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/jameslin/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-apple-darwin22.6.0
+ignoring nonexistent directory "/Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1
+ /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include
+ /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include
+ /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi
+ /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_9e2e1
+Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+Target: armv7-none-linux-android29
+Thread model: posix
+InstalledDir: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/jameslin/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  '/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin'
+Unable to find the executable at any of:
+  /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/armeabi-v7a/CMakeFiles/CMakeTmp/cmTC_9e2e1
+  /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/armeabi-v7a/CMakeFiles/CMakeTmp/Debug/cmTC_9e2e1
+  /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/armeabi-v7a/CMakeFiles/CMakeTmp/Debug/cmTC_9e2e1.app/cmTC_9e2e1
+  /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/armeabi-v7a/CMakeFiles/CMakeTmp/cmTC_9e2e1.app/cmTC_9e2e1
+  /Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/armeabi-v7a/CMakeFiles/CMakeTmp/Development/cmTC_9e2e1
+
+

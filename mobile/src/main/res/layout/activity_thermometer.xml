@@ -92,7 +92,7 @@
                 android:layout_marginBottom="@dimen/card_view_margin_vertical"
                 android:orientation="horizontal">
 
-                <com.siliconlabs.bledemo.features.demo.health_thermometer.views.TemperatureDisplay
+                <com.flowehealth.efr_version.features.demo.health_thermometer.views.TemperatureDisplay
                     android:id="@+id/thermo_large_temperature"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

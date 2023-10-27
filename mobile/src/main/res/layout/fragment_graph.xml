@@ -6,28 +6,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.siliconlabs.bledemo.home_screen.views.BluetoothEnableBar
+    <com.flowehealth.efr_version.home_screen.views.BluetoothEnableBar
         android:id="@+id/bluetooth_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <com.siliconlabs.bledemo.home_screen.views.BluetoothPermissionsBar
+    <com.flowehealth.efr_version.home_screen.views.BluetoothPermissionsBar
         android:id="@+id/bluetooth_permissions_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <com.siliconlabs.bledemo.home_screen.views.LocationEnableBar
+    <com.flowehealth.efr_version.home_screen.views.LocationEnableBar
         android:id="@+id/location_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <com.siliconlabs.bledemo.home_screen.views.LocationPermissionBar
+    <com.flowehealth.efr_version.home_screen.views.LocationPermissionBar
         android:id="@+id/location_permission_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
         </HorizontalScrollView>
     </LinearLayout>
 
-    <com.siliconlabs.bledemo.common.views.HorizontalShadow
+    <com.flowehealth.efr_version.common.views.HorizontalShadow
         android:id="@+id/browser_shadow_top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -136,7 +136,7 @@
 
     </RelativeLayout>
 
-    <com.siliconlabs.bledemo.common.views.MainActionButton
+    <com.flowehealth.efr_version.common.views.MainActionButton
         android:id="@+id/rssi_graph_btn_scanning"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

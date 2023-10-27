@@ -7,28 +7,28 @@
 
     <fragment
         android:id="@+id/scanFragment"
-        android:name="com.siliconlabs.bledemo.home_screen.fragments.ScanFragment"
+        android:name="com.flowehealth.efr_version.home_screen.fragments.ScanFragment"
         android:label="ScanFragment"
         tools:layout="@layout/fragment_scan">
     </fragment>
-    <fragment
+    <!-- <fragment
         android:id="@+id/configureFragment"
-        android:name="com.siliconlabs.bledemo.home_screen.fragments.ConfigureFragment"
+        android:name="com.flowehealth.efr_version.home_screen.fragments.ConfigureFragment"
         android:label="ConfigureFragment"
         tools:layout="@layout/fragment_configure"/>
     <fragment
         android:id="@+id/testFragment"
-        android:name="com.siliconlabs.bledemo.home_screen.fragments.TestFragment"
+        android:name="com.flowehealth.efr_version.home_screen.fragments.TestFragment"
         android:label="TestFragment"
-        tools:layout="@layout/fragment_test"/>
+        tools:layout="@layout/fragment_test"/> -->
     <fragment
         android:id="@+id/demoFragment"
-        android:name="com.siliconlabs.bledemo.home_screen.fragments.DemoFragment"
+        android:name="com.flowehealth.efr_version.home_screen.fragments.DemoFragment"
         android:label="DemoFragment"
         tools:layout="@layout/fragment_demo"/>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.siliconlabs.bledemo.home_screen.fragments.SettingsFragment"
+        android:name="com.flowehealth.efr_version.home_screen.fragments.SettingsFragment"
         android:label="SettingsFragment"
         tools:layout="@layout/fragment_settings"/>
 </navigation>

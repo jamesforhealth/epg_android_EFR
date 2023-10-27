@@ -6,6 +6,12 @@
     android:layout_height="wrap_content"
     tools:context=".features.scan.browser.fragments.ServicesFragment">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="swipeRefreshContainer" />
+
     <ScrollView
         android:id="@+id/scrollview"
         android:layout_width="match_parent"

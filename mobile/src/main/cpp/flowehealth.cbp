@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="flowehealth"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flowehealth">
+				<Option output="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/libflowehealth.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/eigen-3.4.0"/>
+					<Add directory="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/ceres-solver-2.1.0/include"/>
+					<Add directory="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/glog/build"/>
+					<Add directory="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/glog/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 flowehealth"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flowehealth/fast">
+				<Option output="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/libflowehealth.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/eigen-3.4.0"/>
+					<Add directory="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/ceres-solver-2.1.0/include"/>
+					<Add directory="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/glog/build"/>
+					<Add directory="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/glog/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 flowehealth/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/flowehealgorithms/DSP/epg_integrator.cpp">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/flowehealgorithms/DSP/epg_integrator.h">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/flowehealgorithms/DSP/filter.cpp">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/flowehealgorithms/DSP/filter.h">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/flowehealgorithms/histogram.cpp">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/flowehealgorithms/histogram.h">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/flowehealgorithms/peak_detection.cpp">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/flowehealgorithms/peak_detection.h">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/flowehealgorithms/basic_charts.cpp">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/flowehealgorithms/basic_charts.h">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/native-lib.cpp">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/pffft/pffft.c">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/pffft/pffft.h">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/pffft/pffft_common.c">
+			<Option target="flowehealth"/>
+		</Unit>
+		<Unit filename="/Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

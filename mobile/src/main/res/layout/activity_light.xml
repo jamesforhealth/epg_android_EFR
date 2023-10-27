@@ -4,7 +4,7 @@
 
     <fragment
         android:id="@+id/fragment"
-        android:name="com.siliconlabs.bledemo.features.demo.connected_lighting.fragments.ConnectedLightingFragment"
+        android:name="com.flowehealth.efr_version.features.demo.connected_lighting.fragments.ConnectedLightingFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

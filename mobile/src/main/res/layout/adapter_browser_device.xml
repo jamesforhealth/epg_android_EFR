@@ -54,7 +54,7 @@
 
                 </LinearLayout>
 
-                <com.siliconlabs.bledemo.common.views.ActionButton
+                <com.flowehealth.efr_version.common.views.ActionButton
                     android:id="@+id/connection_btn"
                     style="@style/button_with_states"
                     android:layout_width="wrap_content"
@@ -232,7 +232,7 @@
                     tools:ignore="RelativeOverlap"
                     tools:text="Bonded" />
 
-                <com.siliconlabs.bledemo.common.views.ExpandArrow
+                <com.flowehealth.efr_version.common.views.ExpandArrow
                     android:id="@+id/expand_arrow"
                     style="@style/Widget.Material3.Button.IconButton"
                     android:layout_width="wrap_content"

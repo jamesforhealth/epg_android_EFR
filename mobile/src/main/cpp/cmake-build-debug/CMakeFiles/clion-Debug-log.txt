@@ -1,0 +1,21 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp -B /Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp
+-- Configuring done (0.3s)
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+log-lib
+    linked by target "flowehealth" in directory /Users/puddinggenius/AndroidStudioProjects/BLE_FFT/app/src/main/cpp
+
+CMake Error at CMakeLists.txt:33 (add_library):
+  Cannot find source file:
+
+    flowehealgorithms/basic_charts.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Error at CMakeLists.txt:33 (add_library):
+  No SOURCES given to target: flowehealth
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

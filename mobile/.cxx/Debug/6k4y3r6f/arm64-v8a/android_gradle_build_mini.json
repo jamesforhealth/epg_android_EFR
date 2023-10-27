@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/jameslin/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/jameslin/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/.cxx/Debug/6k4y3r6f/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "flowehealth::@6890427a1f51a3e7e1df": {
+      "artifactName": "flowehealth",
+      "abi": "arm64-v8a",
+      "output": "/Users/jameslin/Desktop/GitHub/epg_android_EFR/mobile/Builds/epg_android_EFR/mobile/intermediates/cxx/Debug/6k4y3r6f/obj/arm64-v8a/libflowehealth.so",
+      "runtimeFiles": []
+    }
+  }
+}

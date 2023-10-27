@@ -7,7 +7,7 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.siliconlabs.bledemo.features.demo.blinky.fragments.BlinkyFragment" />
+        android:name="com.flowehealth.efr_version.features.demo.blinky.fragments.BlinkyFragment" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         android:visibility="gone" >
 
         <fragment
-            android:name="com.siliconlabs.bledemo.features.demo.thunderboard_demos.base.fragments.StatusFragment"
+            android:name="com.flowehealth.efr_version.features.demo.thunderboard_demos.base.fragments.StatusFragment"
             android:id="@+id/status_fragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
